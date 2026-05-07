@@ -1,0 +1,58 @@
+```
+# Build artifacts
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+*.cmake
+*.o
+*.a
+*.so
+*.exe
+
+# ESP-IDF specific
+sdkconfig
+sdkconfig.old
+*.log
+
+# Dependencies
+components/**
+!components/
+
+# Temp files
+*.tmp
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.Pytest_cache/
+.mypy_cache/
+```
